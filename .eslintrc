@@ -4,5 +4,8 @@
     "rules": {
         "indent": ["error", 4],
         "comma-dangle": ["error", "always-multiline"]
+    },
+    "env": {
+        "es6": true
     }
 }
