@@ -1,0 +1,25 @@
+{
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.autoIndent": true,
+
+    "eslint.enable": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onSave",
+    "eslint.options": {
+        "configFile": ".eslintrc"
+    },
+
+    "cSpell.ignoreWords": [
+        "promisify",
+        "GOODREADS",
+        "graphiql",
+        "funfunfunction",
+        "multiline"
+    ],
+
+    "prettier.tabWidth": 4
+}
