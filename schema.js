@@ -9,6 +9,15 @@ import {
     GraphQLList,
 } from "graphql";
 
+const translate = (lang, str) =>
+    fetch(
+        `https://www.googleapis.com/language/translate/v2?key=${
+            process.env.GOOGLE_API_KEY
+        }&source=en&target=${lang}&q=${encodeURIComponent(str)}`
+    )
+        .then(response => response.json())
+        .then(json => json.data.translations[0].translatedText);
+
 const parseXML = promisify(parseString);
 
 const BookType = new GraphQLObjectType({
@@ -17,7 +26,15 @@ const BookType = new GraphQLObjectType({
     fields: () => ({
         title: {
             type: GraphQLString,
-            resolve: xml => xml.GoodreadsResponse.book[0].title[0],
+            args: {
+                lang: {
+                    type: GraphQLString,
+                },
+            },
+            resolve: (xml, { lang }) => {
+                const title = xml.GoodreadsResponse.book[0].title[0];
+                return lang ? translate(title, lang) : title;
+            },
         },
         isbn: {
             type: GraphQLString,
