@@ -18,7 +18,8 @@
         "GOODREADS",
         "graphiql",
         "funfunfunction",
-        "multiline"
+        "multiline",
+        "dataloader"
     ],
 
     "prettier.tabWidth": 4

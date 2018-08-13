@@ -1,11 +1,18 @@
 {
-    "extends": ["airbnb-base/legacy", "prettier"],
+    "extends": ["prettier", "airbnb"],
     "parser": "babel-eslint",
     "rules": {
-        "indent": ["error", 4],
-        "comma-dangle": ["error", "always-multiline"]
+        "indent": "off",
+        "comma-dangle": ["error", "always-multiline"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
     },
     "env": {
-        "es6": true
+        "es6": true,
+        "browser": true
+    },
+    "settings": {
+        "import/resolver": {
+            "webpack": { "config": "./webpack.common.js" }
+        }
     }
 }
