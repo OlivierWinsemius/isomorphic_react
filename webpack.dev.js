@@ -1,20 +1,31 @@
 const merge = require('webpack-merge');
 const path = require('path');
+const webpack = require('webpack');
 const common = require('./webpack.common');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const dist = path.resolve(__dirname, 'dist', 'dev');
 
 module.exports = merge(common, {
+    mode: 'development',
+
+    entry: {
+        app: [
+            'webpack-hot-middleware/client',
+            path.resolve(__dirname, 'client', 'index.js'),
+        ],
+    },
+
     output: {
-        path: path.resolve(__dirname, 'dist', 'dev', 'client'),
+        path: path.resolve(__dirname, dist),
     },
 
-    devServer: {
-        hot: true,
-        contentBase: path.resolve(__dirname, 'dist', 'dev', 'client'),
-        port: 3000,
-        proxy: {
-            '/api': 'http://localhost:4000',
-        },
-    },
+    devtool: 'eval-source-map',
 
-    watch: true,
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './index.html',
+        }),
+        new webpack.HotModuleReplacementPlugin(),
+    ],
 });

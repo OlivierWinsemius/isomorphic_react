@@ -1,17 +1,10 @@
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
-const path = require('path');
-
 module.exports = {
-    entry: path.resolve(__dirname, 'client', 'index.js'),
-
     output: {
-        filename: '[name].bundle.js',
+        filename: '[name].js',
     },
 
     resolve: {
-        modules: [path.resolve('./client'), path.resolve('./node_modules')],
+        modules: ['./client', './node_modules'],
     },
 
     module: {
@@ -25,13 +18,4 @@ module.exports = {
             },
         ],
     },
-
-    plugins: [
-        new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin(),
-        new CleanWebpackPlugin(),
-        new HtmlWebpackPlugin({
-            template: './index.html',
-        }),
-    ],
 };

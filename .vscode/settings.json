@@ -1,11 +1,14 @@
 {
+    "cSpell.enabled": false,
+
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.autoIndent": true,
 
-    "eslint.enable": true,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": false,
+
+    "eslint.enable": true,
     "eslint.autoFixOnSave": true,
     "eslint.packageManager": "yarn",
     "eslint.run": "onSave",
@@ -13,14 +16,7 @@
         "configFile": ".eslintrc"
     },
 
-    "cSpell.ignoreWords": [
-        "promisify",
-        "GOODREADS",
-        "graphiql",
-        "funfunfunction",
-        "multiline",
-        "dataloader"
-    ],
-
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5"
 }
