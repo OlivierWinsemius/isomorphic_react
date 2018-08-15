@@ -3,8 +3,8 @@ export default {
         width: '100%',
         height: '100%',
         overflow: 'hidden',
-        backgroundColor: '#ccc',
-        padding: 0,
+        backgroundColor: '#fff',
+        padding: 10,
         margin: 0,
     },
 };

@@ -4,8 +4,8 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "develop": "NODE_ENV=development babel-watch --watch ./server ./server/server.js",
-        "start": "NODE_ENV=production babel-watch --watch ./server ./server/server.js",
+        "develop": "SET NODE_ENV=development& babel-watch ./server/server.js",
+        "start": "SET NODE_ENV=production& babel-watch --watch ./server ./server/server.js",
         "build": "webpack --config webpack.prod.js",
         "lint": "eslint ."
     },

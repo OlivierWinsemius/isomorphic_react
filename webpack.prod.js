@@ -8,7 +8,7 @@ module.exports = merge(common, {
     mode: 'production',
 
     entry: {
-        app: path.resolve(__dirname, 'server', 'views', 'App.js'),
+        app: path.resolve(__dirname, 'server', 'views', 'SSR.js'),
     },
 
     output: {

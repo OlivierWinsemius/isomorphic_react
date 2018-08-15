@@ -1,11 +1,13 @@
 {
-    "extends": ["prettier", "airbnb"],
+    "extends": ["prettier", "prettier/react", "airbnb"],
     "parser": "babel-eslint",
     "rules": {
         "indent": "off",
         "comma-dangle": ["error", "always-multiline"],
         "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
-        "react/jsx-indent": "off"
+        "react/jsx-indent": "off",
+        "react/jsx-indent-props": "off",
+        "linebreak-style": "off"
     },
     "env": {
         "es6": true,

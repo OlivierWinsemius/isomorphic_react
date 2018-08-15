@@ -3,17 +3,17 @@ import { renderToString } from 'react-dom/server';
 import express from 'express';
 import { JssProvider, SheetsRegistry } from 'react-jss';
 import { StaticRouter } from 'react-router-dom';
-import App from './App';
+import SSR from './SSR';
 
 const router = express.Router();
 
 router.get('*', (req, res) => {
     const sheets = new SheetsRegistry();
 
-    renderToString(
+    const content = renderToString(
         <StaticRouter location={req.url}>
             <JssProvider registry={sheets}>
-                <App store={{}} />
+                <SSR store={{}} />
             </JssProvider>
         </StaticRouter>
     );
@@ -25,11 +25,11 @@ router.get('*', (req, res) => {
                     <style type="text/css">{sheets.toString()}</style>
                 </head>
                 <body>
-                    <div id="root">
-                        <StaticRouter location={req.url}>
-                            <App store={{}} />
-                        </StaticRouter>
-                    </div>
+                    <div
+                        id="root"
+                        // eslint-disable-next-line react/no-danger
+                        dangerouslySetInnerHTML={{ __html: content }}
+                    />
                 </body>
                 <script src="/build/app.js" />
             </html>

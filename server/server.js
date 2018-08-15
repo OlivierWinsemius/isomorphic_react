@@ -1,10 +1,10 @@
-import dotenv from 'dotenv';
 import express from 'express';
 import webpack from 'webpack';
 import middleware from 'webpack-dev-middleware';
 import hmr from 'webpack-hot-middleware';
 import path from 'path';
 import history from 'connect-history-api-fallback';
+import dotenv from 'dotenv';
 import webpackConfig from '../webpack.dev';
 
 dotenv.config();
@@ -12,6 +12,8 @@ dotenv.config();
 const app = express();
 const PORT = process.env.DEV_PORT;
 const isDevelopment = process.env.NODE_ENV === 'development';
+
+app.use('/api', req => console.log(req.url));
 
 if (isDevelopment) {
     const compiler = webpack(webpackConfig);
