@@ -1,0 +1,7 @@
+{
+    "extends": "../.eslintrc",
+    "rules": {
+        "global-require": false,
+        "no-console": false
+    }
+}

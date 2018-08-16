@@ -1,8 +1,8 @@
-const merge = require('webpack-merge');
-const path = require('path');
-const webpack = require('webpack');
-const common = require('./webpack.common');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+import merge from 'webpack-merge';
+import path from 'path';
+import webpack from 'webpack';
+import common from './webpack.common';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 const dist = path.resolve(__dirname, 'dist', 'dev');
 
@@ -18,6 +18,7 @@ module.exports = merge(common, {
 
     output: {
         path: path.resolve(__dirname, dist),
+        publicPath: '/',
     },
 
     devtool: 'eval-source-map',
@@ -26,6 +27,7 @@ module.exports = merge(common, {
         new HtmlWebpackPlugin({
             template: './index.html',
         }),
+        new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),
     ],
 });
