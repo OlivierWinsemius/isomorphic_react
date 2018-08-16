@@ -4,9 +4,9 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "develop": "SET NODE_ENV=development& babel-node ./server/server.js",
-        "start": "SET NODE_ENV=production& babel-watch ./server/server.js",
-        "serverOnly": "SET NODE_ENV=server& babel-watch ./server/server.js",
+        "develop": "cross-env NODE_ENV=development babel-node ./server/server.js",
+        "start": "cross-env NODE_ENV=production babel-node ./server/server.js",
+        "serverOnly": "cross-env NODE_ENV=server babel-node ./server/server.js",
         "clientOnly": "webpack-dev-server",
         "build": "webpack --config webpack.prod.js",
         "lint": "eslint ."
@@ -16,6 +16,7 @@
         "chokidar": "^2.0.4",
         "clean-webpack-plugin": "^0.1.19",
         "connect-history-api-fallback": "^1.5.0",
+        "cross-env": "^5.2.0",
         "dotenv": "^6.0.0",
         "express": "^4.16.3",
         "graphql": "^0.13.2",
@@ -43,7 +44,6 @@
         "babel-plugin-transform-class-properties": "^6.24.1",
         "babel-preset-env": "^1.7.0",
         "babel-preset-react": "^6.24.1",
-        "babel-watch": "^2.0.7",
         "eslint": "^4.19.1",
         "eslint-config-airbnb": "^17.1.0",
         "eslint-config-prettier": "^2.9.0",

@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import { parseStringAsync } from './xml';
 
 export const fetchEntity = entity => id =>

@@ -1,15 +1,21 @@
-import express from 'express';
-import dotenv from 'dotenv';
-import webpackMiddleware from './middleware/webpack';
 import chokidar from 'chokidar';
+import dotenv from 'dotenv';
+import express from 'express';
+import fetch from 'node-fetch';
 import { clearCache } from './utils/hmr';
 
+if (!global.fetch) {
+    global.fetch = fetch;
+}
 dotenv.config();
 
 const PORT = process.env.DEV_PORT;
 const isDevelopment = process.env.NODE_ENV === 'development';
 const isServerOnly = process.env.NODE_ENV === 'server';
+const isProduction = process.env.NODE_ENV === 'production';
 const app = express();
+
+console.log(isDevelopment, process.env.NODE_ENV);
 
 app.use((req, res, next) => require('./routes').default(req, res, next));
 
@@ -18,13 +24,17 @@ app.use((req, res, next) =>
 );
 
 if (isDevelopment) {
-    app.use(webpackMiddleware);
-    const watcher = chokidar.watch('.');
-    clearCache(watcher, /[\/\\]server[\/\\]/);
+    app.use(require('./middleware/webpack').default);
 } else if (!isServerOnly) {
     app.use((req, res, next) =>
         require('./middleware/reactSSR').default(req, res, next)
     );
+}
+if (!isProduction) {
+    const watcher = chokidar.watch('.', {
+        ignored: /(client\/).*/,
+    });
+    clearCache(watcher, /[\/\\]server[\/\\]/);
 }
 
 app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`));

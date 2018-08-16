@@ -1,8 +1,16 @@
 import React from 'react';
 import Routes from '../../ecosystems/Routes';
 
-export default () => <Routes />;
+export default class App extends React.Component {
+    fetchStateProps = () => fetch('http://localhost:3000/api');
 
-fetch('http://localhost:3000/api')
-    .then(result => result.text())
-    .then(console.log);
+    render() {
+        const { data } = this.props;
+        return (
+            <div>
+                {data}
+                <Routes />
+            </div>
+        );
+    }
+}
