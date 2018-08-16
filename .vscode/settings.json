@@ -2,10 +2,11 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.autoIndent": true,
-
     "editor.formatOnSave": true,
     "editor.formatOnPaste": false,
-
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false
+    },
     "eslint.enable": true,
     "eslint.autoFixOnSave": true,
     "eslint.packageManager": "yarn",
@@ -13,9 +14,9 @@
     "eslint.options": {
         "configFile": ".eslintrc"
     },
-
     "prettier.parser": "flow",
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
-    "prettier.trailingComma": "es5"
+    "prettier.trailingComma": "es5",
+    "prettier.eslintIntegration": true
 }

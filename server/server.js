@@ -4,16 +4,27 @@ import middleware from 'webpack-dev-middleware';
 import hmr from 'webpack-hot-middleware';
 import path from 'path';
 import history from 'connect-history-api-fallback';
+import { ApolloServer } from 'apollo-server-express';
 import dotenv from 'dotenv';
 import webpackConfig from '../webpack.dev';
 
 dotenv.config();
+const typeDefs = require('./schemas').default;
+const resolvers = require('./resolvers').default;
 
-const app = express();
 const PORT = process.env.DEV_PORT;
 const isDevelopment = process.env.NODE_ENV === 'development';
-
-app.use('/api', req => console.log(req.url));
+const app = express();
+const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    playground: {
+        settings: {
+            'editor.cursorShape': 'line', // possible values: 'line', 'block', 'underline'
+        },
+    },
+});
+server.applyMiddleware({ app });
 
 if (isDevelopment) {
     const compiler = webpack(webpackConfig);
@@ -33,5 +44,6 @@ if (isDevelopment) {
     app.use('/', views);
 }
 
-// eslint-disable-next-line no-console
-app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`));
+app.listen(PORT, () =>
+    // eslint-disable-next-line no-console
+    console.log(`listening on http://localhost:${PORT + server.graphqlPath}`));

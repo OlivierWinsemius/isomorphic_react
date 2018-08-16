@@ -7,7 +7,11 @@
         "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
         "react/jsx-indent": "off",
         "react/jsx-indent-props": "off",
-        "linebreak-style": "off"
+        "linebreak-style": "off",
+        "implicit-arrow-linebreak": "off",
+        "sort-imports": "off",
+        "import/imports-first": "off",
+        "Import/order": "off"
     },
     "env": {
         "es6": true,
