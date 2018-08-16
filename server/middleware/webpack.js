@@ -4,6 +4,7 @@ import webpackMiddleware from 'webpack-dev-middleware';
 import hmr from 'webpack-hot-middleware';
 import history from 'connect-history-api-fallback';
 import webpackConfig from '../../webpack.dev';
+import { clearCache } from '../utils/hmr';
 
 const router = express.Router();
 const compiler = webpack(webpackConfig);
@@ -19,8 +20,8 @@ router.use(
 
 router.use(hmr(compiler));
 
-compiler.plugin('done', function() {
-    console.log('Clearing /client/ module cache from server');
+compiler.plugin('done', () => {
+    console.log('Clearing client module cache from server');
     Object.keys(require.cache).forEach(id => {
         if (/[\/\\]client[\/\\]/.test(id)) {
             console.log(id);
