@@ -6,11 +6,16 @@ Todo:
 -   [x] Babel / es6
 -   [x] Client setup
 -   [x] Server setup
+-   [x] GraphQL (apollo-express)
 -   [x] React-Router
 -   [x] DevServer
 -   [x] Hot Module Reloading (server / client)
--   [ ] Redux setup
+-   [x] Redux setup
 -   [ ] SSR data fetching
 -   [ ] Persistant state
 -   [ ] PWA Manifest
+-   [ ] Database setup (SQL / Redis combo?)
+-   [ ] Caching
 -   [ ] Realtime notifications
+-   [ ] Jest unit testing 100%
+-   [ ] Flow typed / Typescript

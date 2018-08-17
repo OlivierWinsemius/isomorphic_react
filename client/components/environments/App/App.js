@@ -1,16 +1,19 @@
 import React from 'react';
 import Routes from '../../ecosystems/Routes';
 
-export default class App extends React.Component {
-    fetchStateProps = () => fetch('http://localhost:3000/api');
-
-    render() {
-        const { data } = this.props;
-        return (
-            <div>
-                {data}
-                <Routes />
-            </div>
-        );
-    }
-}
+export default ({ count, increment, subtract }) => (
+    <div>
+        <p>
+            <button type="submit" onClick={() => subtract(4)}>
+                -
+            </button>
+            {count}
+            <button type="submit" onClick={() => increment(10)}>
+                +
+            </button>
+        </p>
+        <p>
+            <Routes />
+        </p>
+    </div>
+);

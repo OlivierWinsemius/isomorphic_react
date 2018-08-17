@@ -3,6 +3,7 @@ import { renderToString } from 'react-dom/server';
 import express from 'express';
 import { JssProvider, SheetsRegistry } from 'react-jss';
 import { StaticRouter } from 'react-router-dom';
+import store from '../../client/redux/store';
 import SSR from './SSR';
 
 const router = express.Router();
@@ -13,7 +14,7 @@ router.get('*', (req, res) => {
     const content = renderToString(
         <StaticRouter location={req.url}>
             <JssProvider registry={sheets}>
-                <SSR store={{}} />
+                <SSR store={store} />
             </JssProvider>
         </StaticRouter>
     );

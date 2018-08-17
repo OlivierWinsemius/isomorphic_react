@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import App from './components/environments/App';
+import App from 'components/environments/App';
+import store from 'redux/store';
 
 const render = (Component) => {
     ReactDOM.render(
         <AppContainer>
-            <Provider store={{}}>
+            <Provider store={store}>
                 <BrowserRouter>
                     <Component />
                 </BrowserRouter>
