@@ -3,14 +3,14 @@ import { renderToString } from 'react-dom/server';
 import express from 'express';
 import { JssProvider, SheetsRegistry } from 'react-jss';
 import { StaticRouter } from 'react-router-dom';
-
 import { ApolloProvider } from 'react-apollo';
 import { ApolloClient } from 'apollo-client';
 import { createHttpLink } from 'apollo-link-http';
 import { InMemoryCache } from 'apollo-cache-inmemory';
-
-import App from './App';
-import store from '../../client/redux/store';
+import { getBundles } from 'react-loadable/webpack';
+import Loadable from 'react-loadable';
+import stats from '../../react-loadable.json';
+import App from '../../client/components/environments/App';
 
 const router = express.Router();
 
@@ -29,33 +29,38 @@ router.get('*', (req, res) => {
         }),
     });
 
+    const modules = [];
+
     const content = renderToString(
-        <ApolloProvider client={client}>
-            <StaticRouter location={req.url}>
-                <JssProvider registry={sheets}>
-                    <App store={store} />
-                </JssProvider>
-            </StaticRouter>
-        </ApolloProvider>
+        <Loadable.Capture report={moduleName => modules.push(moduleName)}>
+            <ApolloProvider client={client}>
+                <StaticRouter location={req.url}>
+                    <JssProvider registry={sheets}>
+                        <App />
+                    </JssProvider>
+                </StaticRouter>
+            </ApolloProvider>
+        </Loadable.Capture>
     );
 
-    return res.send(
-        renderToString(
-            <html lang="en">
-                <head>
-                    <style type="text/css">{sheets.toString()}</style>
-                </head>
-                <body>
-                    <div
-                        id="root"
-                        // eslint-disable-next-line react/no-danger
-                        dangerouslySetInnerHTML={{ __html: content }}
-                    />
-                </body>
-                <script src="/build/app.js" />
-            </html>
-        )
-    );
+    const bundles = getBundles(stats, modules);
+    console.log(bundles);
+
+    return res.send(`
+        <html lang="en">
+            <head>
+                <style type="text/css">${sheets.toString()}</style>
+            </head>
+            <body>
+                <div id="root">
+                    ${content}
+                </div>
+            </body>
+            ${bundles.map(bundle => `<script src="/build/${bundle.file}"></script>`).join('\n')}
+            <script src="/build/vendor.bundle.js"></script>
+            <script src="/build/app.js"></script>
+        </html>
+    `);
 });
 
 export default router;

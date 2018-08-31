@@ -2,7 +2,11 @@ import chokidar from 'chokidar';
 import dotenv from 'dotenv';
 import express from 'express';
 import fetch from 'node-fetch';
+import Loadable from 'react-loadable';
+import ReactSSR from './middleware/reactSSR';
 import { clearCache } from './utils/hmr';
+
+console.log(require.ensure);
 
 if (!global.fetch) {
     global.fetch = fetch;
@@ -22,7 +26,7 @@ app.use((req, res, next) => require('./middleware/apolloServer').default(req, re
 if (isDevelopment) {
     app.use(require('./middleware/webpack').default);
 } else if (!isServerOnly) {
-    app.use((req, res, next) => require('./middleware/reactSSR').default(req, res, next));
+    app.use(ReactSSR);
 }
 if (!isProduction) {
     const watcher = chokidar.watch('.', {
@@ -31,4 +35,6 @@ if (!isProduction) {
     clearCache(watcher, /\/server\//);
 }
 
-app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`));
+Loadable.preloadAll()
+    .then(() => app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`)))
+    .catch(e => console.log(e));

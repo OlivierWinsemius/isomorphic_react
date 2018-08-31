@@ -1,0 +1,2414 @@
+{
+  "./Home": [
+    {
+      "id": "./client/components/environments/Home/Home.js",
+      "name": "./client/components/environments/Home/Home.js",
+      "file": "0.bundle.js",
+      "publicPath": "/0.bundle.js"
+    }
+  ],
+  "../../environments/Home": [
+    {
+      "id": "./client/components/environments/Home/index.js",
+      "name": "./client/components/environments/Home/index.js",
+      "file": "0.bundle.js",
+      "publicPath": "/0.bundle.js"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 0,
+      "name": null,
+      "file": "app.js",
+      "publicPath": "/app.js"
+    }
+  ],
+  "./Routes": [
+    {
+      "id": "./client/components/ecosystems/Routes/Routes.js",
+      "name": "./client/components/ecosystems/Routes/Routes.js",
+      "file": "app.js",
+      "publicPath": "/app.js"
+    }
+  ],
+  "../../ecosystems/Routes": [
+    {
+      "id": "./client/components/ecosystems/Routes/index.js",
+      "name": "./client/components/ecosystems/Routes/index.js",
+      "file": "app.js",
+      "publicPath": "/app.js"
+    }
+  ],
+  "./App": [
+    {
+      "id": "./client/components/environments/App/App.js",
+      "name": "./client/components/environments/App/App.js",
+      "file": "app.js",
+      "publicPath": "/app.js"
+    }
+  ],
+  "./App.styles": [
+    {
+      "id": "./client/components/environments/App/App.styles.js",
+      "name": "./client/components/environments/App/App.styles.js",
+      "file": "app.js",
+      "publicPath": "/app.js"
+    }
+  ],
+  "./components/environments/App": [
+    {
+      "id": "./client/components/environments/App/index.js",
+      "name": "./client/components/environments/App/index.js",
+      "file": "app.js",
+      "publicPath": "/app.js"
+    }
+  ],
+  "/Users/olivierwinsemius/personal/graphql-funfunfunction/client/index.js": [
+    {
+      "id": "./client/index.js",
+      "name": "./client/index.js",
+      "file": "app.js",
+      "publicPath": "/app.js"
+    }
+  ],
+  "ansi-html": [
+    {
+      "id": "./node_modules/ansi-html/index.js",
+      "name": "./node_modules/ansi-html/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "ansi-regex": [
+    {
+      "id": "./node_modules/ansi-regex/index.js",
+      "name": "./node_modules/ansi-regex/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-boost": [
+    {
+      "id": "./node_modules/apollo-boost/lib/index.js",
+      "name": "./node_modules/apollo-boost/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./fragmentMatcher": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./inMemoryCache": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-cache-inmemory": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./objectCache": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./readFromStore": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./recordingCache": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./writeToStore": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./cache": [
+    {
+      "id": "./node_modules/apollo-cache/lib/cache.js",
+      "name": "./node_modules/apollo-cache/lib/cache.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-cache": [
+    {
+      "id": "./node_modules/apollo-cache/lib/index.js",
+      "name": "./node_modules/apollo-cache/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./Cache": [
+    {
+      "id": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "name": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./types": [
+    {
+      "id": "./node_modules/apollo-cache/lib/types/index.js",
+      "name": "./node_modules/apollo-cache/lib/types/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./utils": [
+    {
+      "id": "./node_modules/apollo-cache/lib/utils.js",
+      "name": "./node_modules/apollo-cache/lib/utils.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-link-state/lib/utils.js",
+      "name": "./node_modules/apollo-link-state/lib/utils.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./ApolloClient": [
+    {
+      "id": "./node_modules/apollo-client/ApolloClient.js",
+      "name": "./node_modules/apollo-client/ApolloClient.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./core/ObservableQuery": [
+    {
+      "id": "./node_modules/apollo-client/core/ObservableQuery.js",
+      "name": "./node_modules/apollo-client/core/ObservableQuery.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./core/QueryManager": [
+    {
+      "id": "./node_modules/apollo-client/core/QueryManager.js",
+      "name": "./node_modules/apollo-client/core/QueryManager.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./core/networkStatus": [
+    {
+      "id": "./node_modules/apollo-client/core/networkStatus.js",
+      "name": "./node_modules/apollo-client/core/networkStatus.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./core/types": [
+    {
+      "id": "./node_modules/apollo-client/core/types.js",
+      "name": "./node_modules/apollo-client/core/types.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../data/mutations": [
+    {
+      "id": "./node_modules/apollo-client/data/mutations.js",
+      "name": "./node_modules/apollo-client/data/mutations.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../data/queries": [
+    {
+      "id": "./node_modules/apollo-client/data/queries.js",
+      "name": "./node_modules/apollo-client/data/queries.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./data/store": [
+    {
+      "id": "./node_modules/apollo-client/data/store.js",
+      "name": "./node_modules/apollo-client/data/store.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./errors/ApolloError": [
+    {
+      "id": "./node_modules/apollo-client/errors/ApolloError.js",
+      "name": "./node_modules/apollo-client/errors/ApolloError.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-client": [
+    {
+      "id": "./node_modules/apollo-client/index.js",
+      "name": "./node_modules/apollo-client/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../scheduler/scheduler": [
+    {
+      "id": "./node_modules/apollo-client/scheduler/scheduler.js",
+      "name": "./node_modules/apollo-client/scheduler/scheduler.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../util/Observable": [
+    {
+      "id": "./node_modules/apollo-client/util/Observable.js",
+      "name": "./node_modules/apollo-client/util/Observable.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./version": [
+    {
+      "id": "./node_modules/apollo-client/version.js",
+      "name": "./node_modules/apollo-client/version.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./dedupLink": [
+    {
+      "id": "./node_modules/apollo-link-dedup/lib/dedupLink.js",
+      "name": "./node_modules/apollo-link-dedup/lib/dedupLink.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-link-dedup": [
+    {
+      "id": "./node_modules/apollo-link-dedup/lib/index.js",
+      "name": "./node_modules/apollo-link-dedup/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-link-error": [
+    {
+      "id": "./node_modules/apollo-link-error/lib/index.js",
+      "name": "./node_modules/apollo-link-error/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-link-http-common": [
+    {
+      "id": "./node_modules/apollo-link-http-common/lib/index.js",
+      "name": "./node_modules/apollo-link-http-common/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./httpLink": [
+    {
+      "id": "./node_modules/apollo-link-http/lib/httpLink.js",
+      "name": "./node_modules/apollo-link-http/lib/httpLink.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-link-http": [
+    {
+      "id": "./node_modules/apollo-link-http/lib/index.js",
+      "name": "./node_modules/apollo-link-http/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-link-state": [
+    {
+      "id": "./node_modules/apollo-link-state/lib/index.js",
+      "name": "./node_modules/apollo-link-state/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-link": [
+    {
+      "id": "./node_modules/apollo-link/lib/index.js",
+      "name": "./node_modules/apollo-link/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./link": [
+    {
+      "id": "./node_modules/apollo-link/lib/link.js",
+      "name": "./node_modules/apollo-link/lib/link.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./linkUtils": [
+    {
+      "id": "./node_modules/apollo-link/lib/linkUtils.js",
+      "name": "./node_modules/apollo-link/lib/linkUtils.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./directives": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/directives.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/directives.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/directives.js",
+      "name": "./node_modules/apollo-utilities/lib/directives.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./fragments": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/fragments.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/fragments.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/fragments.js",
+      "name": "./node_modules/apollo-utilities/lib/fragments.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./getFromAST": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/getFromAST.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/getFromAST.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/getFromAST.js",
+      "name": "./node_modules/apollo-utilities/lib/getFromAST.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "apollo-utilities": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/index.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/index.js",
+      "name": "./node_modules/apollo-utilities/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./storeUtils": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/storeUtils.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/storeUtils.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/storeUtils.js",
+      "name": "./node_modules/apollo-utilities/lib/storeUtils.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./transform": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/transform.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/transform.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/transform.js",
+      "name": "./node_modules/apollo-utilities/lib/transform.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./util/assign": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/assign.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/assign.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/assign.js",
+      "name": "./node_modules/apollo-utilities/lib/util/assign.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./util/cloneDeep": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/cloneDeep.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/cloneDeep.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/cloneDeep.js",
+      "name": "./node_modules/apollo-utilities/lib/util/cloneDeep.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./util/environment": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/environment.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/environment.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/environment.js",
+      "name": "./node_modules/apollo-utilities/lib/util/environment.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./util/errorHandling": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/errorHandling.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/errorHandling.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/errorHandling.js",
+      "name": "./node_modules/apollo-utilities/lib/util/errorHandling.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./util/isEqual": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/isEqual.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/isEqual.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/isEqual.js",
+      "name": "./node_modules/apollo-utilities/lib/util/isEqual.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./util/maybeDeepFreeze": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/maybeDeepFreeze.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/maybeDeepFreeze.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/maybeDeepFreeze.js",
+      "name": "./node_modules/apollo-utilities/lib/util/maybeDeepFreeze.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./util/stripSymbols": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/stripSymbols.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/stripSymbols.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/stripSymbols.js",
+      "name": "./node_modules/apollo-utilities/lib/util/stripSymbols.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./util/warnOnce": [
+    {
+      "id": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/warnOnce.js",
+      "name": "./node_modules/apollo-link/node_modules/apollo-utilities/lib/util/warnOnce.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/warnOnce.js",
+      "name": "./node_modules/apollo-utilities/lib/util/warnOnce.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "brcast": [
+    {
+      "id": "./node_modules/brcast/dist/brcast.es.js",
+      "name": "./node_modules/brcast/dist/brcast.es.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./camelize": [
+    {
+      "id": "./node_modules/css-vendor/lib/camelize.js",
+      "name": "./node_modules/css-vendor/lib/camelize.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/fbjs/lib/camelize.js",
+      "name": "./node_modules/fbjs/lib/camelize.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "css-vendor": [
+    {
+      "id": "./node_modules/css-vendor/lib/index.js",
+      "name": "./node_modules/css-vendor/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./prefix": [
+    {
+      "id": "./node_modules/css-vendor/lib/prefix.js",
+      "name": "./node_modules/css-vendor/lib/prefix.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./supported-property": [
+    {
+      "id": "./node_modules/css-vendor/lib/supported-property.js",
+      "name": "./node_modules/css-vendor/lib/supported-property.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./supported-value": [
+    {
+      "id": "./node_modules/css-vendor/lib/supported-value.js",
+      "name": "./node_modules/css-vendor/lib/supported-value.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fast-json-stable-stringify": [
+    {
+      "id": "./node_modules/fast-json-stable-stringify/index.js",
+      "name": "./node_modules/fast-json-stable-stringify/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fast-levenshtein": [
+    {
+      "id": "./node_modules/fast-levenshtein/levenshtein.js",
+      "name": "./node_modules/fast-levenshtein/levenshtein.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/ExecutionEnvironment": [
+    {
+      "id": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
+      "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/camelizeStyleName": [
+    {
+      "id": "./node_modules/fbjs/lib/camelizeStyleName.js",
+      "name": "./node_modules/fbjs/lib/camelizeStyleName.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/containsNode": [
+    {
+      "id": "./node_modules/fbjs/lib/containsNode.js",
+      "name": "./node_modules/fbjs/lib/containsNode.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/emptyFunction": [
+    {
+      "id": "./node_modules/fbjs/lib/emptyFunction.js",
+      "name": "./node_modules/fbjs/lib/emptyFunction.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/emptyObject": [
+    {
+      "id": "./node_modules/fbjs/lib/emptyObject.js",
+      "name": "./node_modules/fbjs/lib/emptyObject.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/getActiveElement": [
+    {
+      "id": "./node_modules/fbjs/lib/getActiveElement.js",
+      "name": "./node_modules/fbjs/lib/getActiveElement.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./hyphenate": [
+    {
+      "id": "./node_modules/fbjs/lib/hyphenate.js",
+      "name": "./node_modules/fbjs/lib/hyphenate.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/hyphenateStyleName": [
+    {
+      "id": "./node_modules/fbjs/lib/hyphenateStyleName.js",
+      "name": "./node_modules/fbjs/lib/hyphenateStyleName.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/invariant": [
+    {
+      "id": "./node_modules/fbjs/lib/invariant.js",
+      "name": "./node_modules/fbjs/lib/invariant.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./isNode": [
+    {
+      "id": "./node_modules/fbjs/lib/isNode.js",
+      "name": "./node_modules/fbjs/lib/isNode.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./isTextNode": [
+    {
+      "id": "./node_modules/fbjs/lib/isTextNode.js",
+      "name": "./node_modules/fbjs/lib/isTextNode.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/shallowEqual": [
+    {
+      "id": "./node_modules/fbjs/lib/shallowEqual.js",
+      "name": "./node_modules/fbjs/lib/shallowEqual.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "fbjs/lib/warning": [
+    {
+      "id": "./node_modules/fbjs/lib/warning.js",
+      "name": "./node_modules/fbjs/lib/warning.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "graphql-anywhere/lib/async": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/async.js",
+      "name": "./node_modules/graphql-anywhere/lib/async.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./graphql": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "name": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "graphql-anywhere": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/index.js",
+      "name": "./node_modules/graphql-anywhere/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./utilities": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "name": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "graphql-tag": [
+    {
+      "id": "./node_modules/graphql-tag/src/index.js",
+      "name": "./node_modules/graphql-tag/src/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./GraphQLError": [
+    {
+      "id": "./node_modules/graphql/error/GraphQLError.mjs",
+      "name": "./node_modules/graphql/error/GraphQLError.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./formatError": [
+    {
+      "id": "./node_modules/graphql/error/formatError.mjs",
+      "name": "./node_modules/graphql/error/formatError.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../error": [
+    {
+      "id": "./node_modules/graphql/error/index.mjs",
+      "name": "./node_modules/graphql/error/index.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./locatedError": [
+    {
+      "id": "./node_modules/graphql/error/locatedError.mjs",
+      "name": "./node_modules/graphql/error/locatedError.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./printError": [
+    {
+      "id": "./node_modules/graphql/error/printError.mjs",
+      "name": "./node_modules/graphql/error/printError.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./syntaxError": [
+    {
+      "id": "./node_modules/graphql/error/syntaxError.mjs",
+      "name": "./node_modules/graphql/error/syntaxError.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../jsutils/invariant": [
+    {
+      "id": "./node_modules/graphql/jsutils/invariant.mjs",
+      "name": "./node_modules/graphql/jsutils/invariant.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./blockStringValue": [
+    {
+      "id": "./node_modules/graphql/language/blockStringValue.mjs",
+      "name": "./node_modules/graphql/language/blockStringValue.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./directiveLocation": [
+    {
+      "id": "./node_modules/graphql/language/directiveLocation.mjs",
+      "name": "./node_modules/graphql/language/directiveLocation.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./kinds": [
+    {
+      "id": "./node_modules/graphql/language/kinds.mjs",
+      "name": "./node_modules/graphql/language/kinds.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./lexer": [
+    {
+      "id": "./node_modules/graphql/language/lexer.mjs",
+      "name": "./node_modules/graphql/language/lexer.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../language/location": [
+    {
+      "id": "./node_modules/graphql/language/location.mjs",
+      "name": "./node_modules/graphql/language/location.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "graphql/language/parser": [
+    {
+      "id": "./node_modules/graphql/language/parser.mjs",
+      "name": "./node_modules/graphql/language/parser.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "graphql/language/printer": [
+    {
+      "id": "./node_modules/graphql/language/printer.mjs",
+      "name": "./node_modules/graphql/language/printer.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./source": [
+    {
+      "id": "./node_modules/graphql/language/source.mjs",
+      "name": "./node_modules/graphql/language/source.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./visitor": [
+    {
+      "id": "./node_modules/graphql/language/visitor.mjs",
+      "name": "./node_modules/graphql/language/visitor.mjs",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./DOMUtils": [
+    {
+      "id": "./node_modules/history/es/DOMUtils.js",
+      "name": "./node_modules/history/es/DOMUtils.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./LocationUtils": [
+    {
+      "id": "./node_modules/history/es/LocationUtils.js",
+      "name": "./node_modules/history/es/LocationUtils.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./PathUtils": [
+    {
+      "id": "./node_modules/history/es/PathUtils.js",
+      "name": "./node_modules/history/es/PathUtils.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./createBrowserHistory": [
+    {
+      "id": "./node_modules/history/es/createBrowserHistory.js",
+      "name": "./node_modules/history/es/createBrowserHistory.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./createHashHistory": [
+    {
+      "id": "./node_modules/history/es/createHashHistory.js",
+      "name": "./node_modules/history/es/createHashHistory.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./createMemoryHistory": [
+    {
+      "id": "./node_modules/history/es/createMemoryHistory.js",
+      "name": "./node_modules/history/es/createMemoryHistory.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./createTransitionManager": [
+    {
+      "id": "./node_modules/history/es/createTransitionManager.js",
+      "name": "./node_modules/history/es/createTransitionManager.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "history": [
+    {
+      "id": "./node_modules/history/es/index.js",
+      "name": "./node_modules/history/es/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "hoist-non-react-statics": [
+    {
+      "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "html-entities": [
+    {
+      "id": "./node_modules/html-entities/index.js",
+      "name": "./node_modules/html-entities/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./lib/html4-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/html4-entities.js",
+      "name": "./node_modules/html-entities/lib/html4-entities.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./lib/html5-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/html5-entities.js",
+      "name": "./node_modules/html-entities/lib/html5-entities.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./lib/xml-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/xml-entities.js",
+      "name": "./node_modules/html-entities/lib/xml-entities.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "hyphenate-style-name": [
+    {
+      "id": "./node_modules/hyphenate-style-name/index.js",
+      "name": "./node_modules/hyphenate-style-name/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "invariant": [
+    {
+      "id": "./node_modules/invariant/browser.js",
+      "name": "./node_modules/invariant/browser.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "is-function": [
+    {
+      "id": "./node_modules/is-function/index.js",
+      "name": "./node_modules/is-function/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "is-in-browser": [
+    {
+      "id": "./node_modules/is-in-browser/dist/module.js",
+      "name": "./node_modules/is-in-browser/dist/module.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "is-plain-object": [
+    {
+      "id": "./node_modules/is-plain-object/index.js",
+      "name": "./node_modules/is-plain-object/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "isobject": [
+    {
+      "id": "./node_modules/isobject/index.js",
+      "name": "./node_modules/isobject/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-camel-case": [
+    {
+      "id": "./node_modules/jss-camel-case/lib/index.js",
+      "name": "./node_modules/jss-camel-case/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-compose": [
+    {
+      "id": "./node_modules/jss-compose/lib/index.js",
+      "name": "./node_modules/jss-compose/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./defaultUnits": [
+    {
+      "id": "./node_modules/jss-default-unit/lib/defaultUnits.js",
+      "name": "./node_modules/jss-default-unit/lib/defaultUnits.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-default-unit": [
+    {
+      "id": "./node_modules/jss-default-unit/lib/index.js",
+      "name": "./node_modules/jss-default-unit/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-expand": [
+    {
+      "id": "./node_modules/jss-expand/lib/index.js",
+      "name": "./node_modules/jss-expand/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./props": [
+    {
+      "id": "./node_modules/jss-expand/lib/props.js",
+      "name": "./node_modules/jss-expand/lib/props.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-extend": [
+    {
+      "id": "./node_modules/jss-extend/lib/index.js",
+      "name": "./node_modules/jss-extend/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-global": [
+    {
+      "id": "./node_modules/jss-global/lib/index.js",
+      "name": "./node_modules/jss-global/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-nested": [
+    {
+      "id": "./node_modules/jss-nested/lib/index.js",
+      "name": "./node_modules/jss-nested/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-preset-default": [
+    {
+      "id": "./node_modules/jss-preset-default/lib/index.js",
+      "name": "./node_modules/jss-preset-default/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-props-sort": [
+    {
+      "id": "./node_modules/jss-props-sort/lib/index.js",
+      "name": "./node_modules/jss-props-sort/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-template": [
+    {
+      "id": "./node_modules/jss-template/lib/index.js",
+      "name": "./node_modules/jss-template/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./parse": [
+    {
+      "id": "./node_modules/jss-template/lib/parse.js",
+      "name": "./node_modules/jss-template/lib/parse.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss-vendor-prefixer": [
+    {
+      "id": "./node_modules/jss-vendor-prefixer/lib/index.js",
+      "name": "./node_modules/jss-vendor-prefixer/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./Jss": [
+    {
+      "id": "./node_modules/jss/lib/Jss.js",
+      "name": "./node_modules/jss/lib/Jss.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./PluginsRegistry": [
+    {
+      "id": "./node_modules/jss/lib/PluginsRegistry.js",
+      "name": "./node_modules/jss/lib/PluginsRegistry.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./RuleList": [
+    {
+      "id": "./node_modules/jss/lib/RuleList.js",
+      "name": "./node_modules/jss/lib/RuleList.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./SheetsManager": [
+    {
+      "id": "./node_modules/jss/lib/SheetsManager.js",
+      "name": "./node_modules/jss/lib/SheetsManager.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./SheetsRegistry": [
+    {
+      "id": "./node_modules/jss/lib/SheetsRegistry.js",
+      "name": "./node_modules/jss/lib/SheetsRegistry.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./StyleSheet": [
+    {
+      "id": "./node_modules/jss/lib/StyleSheet.js",
+      "name": "./node_modules/jss/lib/StyleSheet.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "jss": [
+    {
+      "id": "./node_modules/jss/lib/index.js",
+      "name": "./node_modules/jss/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./plugins/functions": [
+    {
+      "id": "./node_modules/jss/lib/plugins/functions.js",
+      "name": "./node_modules/jss/lib/plugins/functions.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./plugins/observables": [
+    {
+      "id": "./node_modules/jss/lib/plugins/observables.js",
+      "name": "./node_modules/jss/lib/plugins/observables.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./plugins/rules": [
+    {
+      "id": "./node_modules/jss/lib/plugins/rules.js",
+      "name": "./node_modules/jss/lib/plugins/rules.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./renderers/DomRenderer": [
+    {
+      "id": "./node_modules/jss/lib/renderers/DomRenderer.js",
+      "name": "./node_modules/jss/lib/renderers/DomRenderer.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./renderers/VirtualRenderer": [
+    {
+      "id": "./node_modules/jss/lib/renderers/VirtualRenderer.js",
+      "name": "./node_modules/jss/lib/renderers/VirtualRenderer.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../rules/ConditionalRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/ConditionalRule.js",
+      "name": "./node_modules/jss/lib/rules/ConditionalRule.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../rules/FontFaceRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/FontFaceRule.js",
+      "name": "./node_modules/jss/lib/rules/FontFaceRule.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../rules/KeyframesRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/KeyframesRule.js",
+      "name": "./node_modules/jss/lib/rules/KeyframesRule.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../rules/SimpleRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/SimpleRule.js",
+      "name": "./node_modules/jss/lib/rules/SimpleRule.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./rules/StyleRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/StyleRule.js",
+      "name": "./node_modules/jss/lib/rules/StyleRule.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../rules/ViewportRule": [
+    {
+      "id": "./node_modules/jss/lib/rules/ViewportRule.js",
+      "name": "./node_modules/jss/lib/rules/ViewportRule.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./sheets": [
+    {
+      "id": "./node_modules/jss/lib/sheets.js",
+      "name": "./node_modules/jss/lib/sheets.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../utils/cloneStyle": [
+    {
+      "id": "./node_modules/jss/lib/utils/cloneStyle.js",
+      "name": "./node_modules/jss/lib/utils/cloneStyle.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./utils/createGenerateClassName": [
+    {
+      "id": "./node_modules/jss/lib/utils/createGenerateClassName.js",
+      "name": "./node_modules/jss/lib/utils/createGenerateClassName.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./utils/createRule": [
+    {
+      "id": "./node_modules/jss/lib/utils/createRule.js",
+      "name": "./node_modules/jss/lib/utils/createRule.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./utils/escape": [
+    {
+      "id": "./node_modules/jss/lib/utils/escape.js",
+      "name": "./node_modules/jss/lib/utils/escape.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./utils/getDynamicStyles": [
+    {
+      "id": "./node_modules/jss/lib/utils/getDynamicStyles.js",
+      "name": "./node_modules/jss/lib/utils/getDynamicStyles.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../utils/isObservable": [
+    {
+      "id": "./node_modules/jss/lib/utils/isObservable.js",
+      "name": "./node_modules/jss/lib/utils/isObservable.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./utils/linkRule": [
+    {
+      "id": "./node_modules/jss/lib/utils/linkRule.js",
+      "name": "./node_modules/jss/lib/utils/linkRule.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./moduleId": [
+    {
+      "id": "./node_modules/jss/lib/utils/moduleId.js",
+      "name": "./node_modules/jss/lib/utils/moduleId.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "../utils/toCss": [
+    {
+      "id": "./node_modules/jss/lib/utils/toCss.js",
+      "name": "./node_modules/jss/lib/utils/toCss.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./utils/toCssValue": [
+    {
+      "id": "./node_modules/jss/lib/utils/toCssValue.js",
+      "name": "./node_modules/jss/lib/utils/toCssValue.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_LazyWrapper": [
+    {
+      "id": "./node_modules/lodash/_LazyWrapper.js",
+      "name": "./node_modules/lodash/_LazyWrapper.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_LodashWrapper": [
+    {
+      "id": "./node_modules/lodash/_LodashWrapper.js",
+      "name": "./node_modules/lodash/_LodashWrapper.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_Symbol": [
+    {
+      "id": "./node_modules/lodash/_Symbol.js",
+      "name": "./node_modules/lodash/_Symbol.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_WeakMap": [
+    {
+      "id": "./node_modules/lodash/_WeakMap.js",
+      "name": "./node_modules/lodash/_WeakMap.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_apply": [
+    {
+      "id": "./node_modules/lodash/_apply.js",
+      "name": "./node_modules/lodash/_apply.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_arrayPush": [
+    {
+      "id": "./node_modules/lodash/_arrayPush.js",
+      "name": "./node_modules/lodash/_arrayPush.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_baseCreate": [
+    {
+      "id": "./node_modules/lodash/_baseCreate.js",
+      "name": "./node_modules/lodash/_baseCreate.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_baseFlatten": [
+    {
+      "id": "./node_modules/lodash/_baseFlatten.js",
+      "name": "./node_modules/lodash/_baseFlatten.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_baseGetTag": [
+    {
+      "id": "./node_modules/lodash/_baseGetTag.js",
+      "name": "./node_modules/lodash/_baseGetTag.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_baseIsArguments": [
+    {
+      "id": "./node_modules/lodash/_baseIsArguments.js",
+      "name": "./node_modules/lodash/_baseIsArguments.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_baseIsNative": [
+    {
+      "id": "./node_modules/lodash/_baseIsNative.js",
+      "name": "./node_modules/lodash/_baseIsNative.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_baseLodash": [
+    {
+      "id": "./node_modules/lodash/_baseLodash.js",
+      "name": "./node_modules/lodash/_baseLodash.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_baseSetToString": [
+    {
+      "id": "./node_modules/lodash/_baseSetToString.js",
+      "name": "./node_modules/lodash/_baseSetToString.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_copyArray": [
+    {
+      "id": "./node_modules/lodash/_copyArray.js",
+      "name": "./node_modules/lodash/_copyArray.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_coreJsData": [
+    {
+      "id": "./node_modules/lodash/_coreJsData.js",
+      "name": "./node_modules/lodash/_coreJsData.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_createFlow": [
+    {
+      "id": "./node_modules/lodash/_createFlow.js",
+      "name": "./node_modules/lodash/_createFlow.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_defineProperty": [
+    {
+      "id": "./node_modules/lodash/_defineProperty.js",
+      "name": "./node_modules/lodash/_defineProperty.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_flatRest": [
+    {
+      "id": "./node_modules/lodash/_flatRest.js",
+      "name": "./node_modules/lodash/_flatRest.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_freeGlobal": [
+    {
+      "id": "./node_modules/lodash/_freeGlobal.js",
+      "name": "./node_modules/lodash/_freeGlobal.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_getData": [
+    {
+      "id": "./node_modules/lodash/_getData.js",
+      "name": "./node_modules/lodash/_getData.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_getFuncName": [
+    {
+      "id": "./node_modules/lodash/_getFuncName.js",
+      "name": "./node_modules/lodash/_getFuncName.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_getNative": [
+    {
+      "id": "./node_modules/lodash/_getNative.js",
+      "name": "./node_modules/lodash/_getNative.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_getRawTag": [
+    {
+      "id": "./node_modules/lodash/_getRawTag.js",
+      "name": "./node_modules/lodash/_getRawTag.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_getValue": [
+    {
+      "id": "./node_modules/lodash/_getValue.js",
+      "name": "./node_modules/lodash/_getValue.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_isFlattenable": [
+    {
+      "id": "./node_modules/lodash/_isFlattenable.js",
+      "name": "./node_modules/lodash/_isFlattenable.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_isLaziable": [
+    {
+      "id": "./node_modules/lodash/_isLaziable.js",
+      "name": "./node_modules/lodash/_isLaziable.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_isMasked": [
+    {
+      "id": "./node_modules/lodash/_isMasked.js",
+      "name": "./node_modules/lodash/_isMasked.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_metaMap": [
+    {
+      "id": "./node_modules/lodash/_metaMap.js",
+      "name": "./node_modules/lodash/_metaMap.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_objectToString": [
+    {
+      "id": "./node_modules/lodash/_objectToString.js",
+      "name": "./node_modules/lodash/_objectToString.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_overRest": [
+    {
+      "id": "./node_modules/lodash/_overRest.js",
+      "name": "./node_modules/lodash/_overRest.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_realNames": [
+    {
+      "id": "./node_modules/lodash/_realNames.js",
+      "name": "./node_modules/lodash/_realNames.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_root": [
+    {
+      "id": "./node_modules/lodash/_root.js",
+      "name": "./node_modules/lodash/_root.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_setToString": [
+    {
+      "id": "./node_modules/lodash/_setToString.js",
+      "name": "./node_modules/lodash/_setToString.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_shortOut": [
+    {
+      "id": "./node_modules/lodash/_shortOut.js",
+      "name": "./node_modules/lodash/_shortOut.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_toSource": [
+    {
+      "id": "./node_modules/lodash/_toSource.js",
+      "name": "./node_modules/lodash/_toSource.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./_wrapperClone": [
+    {
+      "id": "./node_modules/lodash/_wrapperClone.js",
+      "name": "./node_modules/lodash/_wrapperClone.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./constant": [
+    {
+      "id": "./node_modules/lodash/constant.js",
+      "name": "./node_modules/lodash/constant.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./flatten": [
+    {
+      "id": "./node_modules/lodash/flatten.js",
+      "name": "./node_modules/lodash/flatten.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "lodash/flowRight": [
+    {
+      "id": "./node_modules/lodash/flowRight.js",
+      "name": "./node_modules/lodash/flowRight.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./identity": [
+    {
+      "id": "./node_modules/lodash/identity.js",
+      "name": "./node_modules/lodash/identity.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./isArguments": [
+    {
+      "id": "./node_modules/lodash/isArguments.js",
+      "name": "./node_modules/lodash/isArguments.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./isArray": [
+    {
+      "id": "./node_modules/lodash/isArray.js",
+      "name": "./node_modules/lodash/isArray.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./isFunction": [
+    {
+      "id": "./node_modules/lodash/isFunction.js",
+      "name": "./node_modules/lodash/isFunction.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./isObject": [
+    {
+      "id": "./node_modules/lodash/isObject.js",
+      "name": "./node_modules/lodash/isObject.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./isObjectLike": [
+    {
+      "id": "./node_modules/lodash/isObjectLike.js",
+      "name": "./node_modules/lodash/isObjectLike.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./noop": [
+    {
+      "id": "./node_modules/lodash/noop.js",
+      "name": "./node_modules/lodash/noop.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./wrapperLodash": [
+    {
+      "id": "./node_modules/lodash/wrapperLodash.js",
+      "name": "./node_modules/lodash/wrapperLodash.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "object-assign": [
+    {
+      "id": "./node_modules/object-assign/index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./../../../process/browser.js": [
+    {
+      "id": "./node_modules/process/browser.js",
+      "name": "./node_modules/process/browser.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "prop-types/checkPropTypes": [
+    {
+      "id": "./node_modules/prop-types/checkPropTypes.js",
+      "name": "./node_modules/prop-types/checkPropTypes.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./factoryWithTypeCheckers": [
+    {
+      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "prop-types": [
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./lib/ReactPropTypesSecret": [
+    {
+      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-apollo": [
+    {
+      "id": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "name": "./node_modules/react-apollo/react-apollo.browser.umd.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./cjs/react-dom.development.js": [
+    {
+      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-dom": [
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./dist/react-hot-loader.development.js": [
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-hot-loader": [
+    {
+      "id": "./node_modules/react-hot-loader/index.js",
+      "name": "./node_modules/react-hot-loader/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./JssProvider": [
+    {
+      "id": "./node_modules/react-jss/lib/JssProvider.js",
+      "name": "./node_modules/react-jss/lib/JssProvider.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./compose": [
+    {
+      "id": "./node_modules/react-jss/lib/compose.js",
+      "name": "./node_modules/react-jss/lib/compose.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./contextTypes": [
+    {
+      "id": "./node_modules/react-jss/lib/contextTypes.js",
+      "name": "./node_modules/react-jss/lib/contextTypes.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./createHoc": [
+    {
+      "id": "./node_modules/react-jss/lib/createHoc.js",
+      "name": "./node_modules/react-jss/lib/createHoc.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./getDisplayName": [
+    {
+      "id": "./node_modules/react-jss/lib/getDisplayName.js",
+      "name": "./node_modules/react-jss/lib/getDisplayName.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-jss": [
+    {
+      "id": "./node_modules/react-jss/lib/index.js",
+      "name": "./node_modules/react-jss/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./injectSheet": [
+    {
+      "id": "./node_modules/react-jss/lib/injectSheet.js",
+      "name": "./node_modules/react-jss/lib/injectSheet.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./jss": [
+    {
+      "id": "./node_modules/react-jss/lib/jss.js",
+      "name": "./node_modules/react-jss/lib/jss.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./ns": [
+    {
+      "id": "./node_modules/react-jss/lib/ns.js",
+      "name": "./node_modules/react-jss/lib/ns.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./propTypes": [
+    {
+      "id": "./node_modules/react-jss/lib/propTypes.js",
+      "name": "./node_modules/react-jss/lib/propTypes.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-lifecycles-compat": [
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-loadable": [
+    {
+      "id": "./node_modules/react-loadable/lib/index.js",
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./BrowserRouter": [
+    {
+      "id": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "name": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./HashRouter": [
+    {
+      "id": "./node_modules/react-router-dom/es/HashRouter.js",
+      "name": "./node_modules/react-router-dom/es/HashRouter.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./Link": [
+    {
+      "id": "./node_modules/react-router-dom/es/Link.js",
+      "name": "./node_modules/react-router-dom/es/Link.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./MemoryRouter": [
+    {
+      "id": "./node_modules/react-router-dom/es/MemoryRouter.js",
+      "name": "./node_modules/react-router-dom/es/MemoryRouter.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./NavLink": [
+    {
+      "id": "./node_modules/react-router-dom/es/NavLink.js",
+      "name": "./node_modules/react-router-dom/es/NavLink.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./Prompt": [
+    {
+      "id": "./node_modules/react-router-dom/es/Prompt.js",
+      "name": "./node_modules/react-router-dom/es/Prompt.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./Redirect": [
+    {
+      "id": "./node_modules/react-router-dom/es/Redirect.js",
+      "name": "./node_modules/react-router-dom/es/Redirect.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./Route": [
+    {
+      "id": "./node_modules/react-router-dom/es/Route.js",
+      "name": "./node_modules/react-router-dom/es/Route.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./Router": [
+    {
+      "id": "./node_modules/react-router-dom/es/Router.js",
+      "name": "./node_modules/react-router-dom/es/Router.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./StaticRouter": [
+    {
+      "id": "./node_modules/react-router-dom/es/StaticRouter.js",
+      "name": "./node_modules/react-router-dom/es/StaticRouter.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./Switch": [
+    {
+      "id": "./node_modules/react-router-dom/es/Switch.js",
+      "name": "./node_modules/react-router-dom/es/Switch.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./generatePath": [
+    {
+      "id": "./node_modules/react-router-dom/es/generatePath.js",
+      "name": "./node_modules/react-router-dom/es/generatePath.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router-dom": [
+    {
+      "id": "./node_modules/react-router-dom/es/index.js",
+      "name": "./node_modules/react-router-dom/es/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./matchPath": [
+    {
+      "id": "./node_modules/react-router-dom/es/matchPath.js",
+      "name": "./node_modules/react-router-dom/es/matchPath.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./withRouter": [
+    {
+      "id": "./node_modules/react-router-dom/es/withRouter.js",
+      "name": "./node_modules/react-router-dom/es/withRouter.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "warning": [
+    {
+      "id": "./node_modules/react-router-dom/node_modules/warning/warning.js",
+      "name": "./node_modules/react-router-dom/node_modules/warning/warning.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router/node_modules/warning/warning.js",
+      "name": "./node_modules/react-router/node_modules/warning/warning.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    },
+    {
+      "id": "./node_modules/warning/browser.js",
+      "name": "./node_modules/warning/browser.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/MemoryRouter": [
+    {
+      "id": "./node_modules/react-router/es/MemoryRouter.js",
+      "name": "./node_modules/react-router/es/MemoryRouter.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/Prompt": [
+    {
+      "id": "./node_modules/react-router/es/Prompt.js",
+      "name": "./node_modules/react-router/es/Prompt.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/Redirect": [
+    {
+      "id": "./node_modules/react-router/es/Redirect.js",
+      "name": "./node_modules/react-router/es/Redirect.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/Route": [
+    {
+      "id": "./node_modules/react-router/es/Route.js",
+      "name": "./node_modules/react-router/es/Route.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/Router": [
+    {
+      "id": "./node_modules/react-router/es/Router.js",
+      "name": "./node_modules/react-router/es/Router.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/StaticRouter": [
+    {
+      "id": "./node_modules/react-router/es/StaticRouter.js",
+      "name": "./node_modules/react-router/es/StaticRouter.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/Switch": [
+    {
+      "id": "./node_modules/react-router/es/Switch.js",
+      "name": "./node_modules/react-router/es/Switch.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/generatePath": [
+    {
+      "id": "./node_modules/react-router/es/generatePath.js",
+      "name": "./node_modules/react-router/es/generatePath.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/matchPath": [
+    {
+      "id": "./node_modules/react-router/es/matchPath.js",
+      "name": "./node_modules/react-router/es/matchPath.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react-router/es/withRouter": [
+    {
+      "id": "./node_modules/react-router/es/withRouter.js",
+      "name": "./node_modules/react-router/es/withRouter.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "isarray": [
+    {
+      "id": "./node_modules/react-router/node_modules/isarray/index.js",
+      "name": "./node_modules/react-router/node_modules/isarray/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "path-to-regexp": [
+    {
+      "id": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./cjs/react.development.js": [
+    {
+      "id": "./node_modules/react/cjs/react.development.js",
+      "name": "./node_modules/react/cjs/react.development.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "react": [
+    {
+      "id": "./node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "resolve-pathname": [
+    {
+      "id": "./node_modules/resolve-pathname/index.js",
+      "name": "./node_modules/resolve-pathname/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "shallowequal": [
+    {
+      "id": "./node_modules/shallowequal/index.js",
+      "name": "./node_modules/shallowequal/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "strip-ansi": [
+    {
+      "id": "./node_modules/strip-ansi/index.js",
+      "name": "./node_modules/strip-ansi/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "symbol-observable": [
+    {
+      "id": "./node_modules/symbol-observable/es/index.js",
+      "name": "./node_modules/symbol-observable/es/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./ponyfill.js": [
+    {
+      "id": "./node_modules/symbol-observable/es/ponyfill.js",
+      "name": "./node_modules/symbol-observable/es/ponyfill.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./channel": [
+    {
+      "id": "./node_modules/theming/dist/esm/channel.js",
+      "name": "./node_modules/theming/dist/esm/channel.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./create-theme-listener": [
+    {
+      "id": "./node_modules/theming/dist/esm/create-theme-listener.js",
+      "name": "./node_modules/theming/dist/esm/create-theme-listener.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./create-theme-provider": [
+    {
+      "id": "./node_modules/theming/dist/esm/create-theme-provider.js",
+      "name": "./node_modules/theming/dist/esm/create-theme-provider.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./create-with-theme": [
+    {
+      "id": "./node_modules/theming/dist/esm/create-with-theme.js",
+      "name": "./node_modules/theming/dist/esm/create-with-theme.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "theming": [
+    {
+      "id": "./node_modules/theming/dist/esm/index.js",
+      "name": "./node_modules/theming/dist/esm/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "value-equal": [
+    {
+      "id": "./node_modules/value-equal/index.js",
+      "name": "./node_modules/value-equal/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./client-overlay": [
+    {
+      "id": "./node_modules/webpack-hot-middleware/client-overlay.js",
+      "name": "./node_modules/webpack-hot-middleware/client-overlay.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "webpack-hot-middleware/client": [
+    {
+      "id": "./node_modules/webpack-hot-middleware/client.js",
+      "name": "./node_modules/webpack-hot-middleware/client.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./process-update": [
+    {
+      "id": "./node_modules/webpack-hot-middleware/process-update.js",
+      "name": "./node_modules/webpack-hot-middleware/process-update.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "!!webpack amd define": [
+    {
+      "id": "./node_modules/webpack/buildin/amd-define.js",
+      "name": "./node_modules/webpack/buildin/amd-define.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "!!webpack amd options": [
+    {
+      "id": "./node_modules/webpack/buildin/amd-options.js",
+      "name": "./node_modules/webpack/buildin/amd-options.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./../../webpack/buildin/global.js": [
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./../../webpack/buildin/harmony-module.js": [
+    {
+      "id": "./node_modules/webpack/buildin/harmony-module.js",
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./../webpack/buildin/module.js": [
+    {
+      "id": "./node_modules/webpack/buildin/module.js",
+      "name": "./node_modules/webpack/buildin/module.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "zen-observable-ts": [
+    {
+      "id": "./node_modules/zen-observable-ts/lib/index.js",
+      "name": "./node_modules/zen-observable-ts/lib/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./zenObservable": [
+    {
+      "id": "./node_modules/zen-observable-ts/lib/zenObservable.js",
+      "name": "./node_modules/zen-observable-ts/lib/zenObservable.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "zen-observable": [
+    {
+      "id": "./node_modules/zen-observable/index.js",
+      "name": "./node_modules/zen-observable/index.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ],
+  "./lib/Observable.js": [
+    {
+      "id": "./node_modules/zen-observable/lib/Observable.js",
+      "name": "./node_modules/zen-observable/lib/Observable.js",
+      "file": "vendor.bundle.js",
+      "publicPath": "/vendor.bundle.js"
+    }
+  ]
+}

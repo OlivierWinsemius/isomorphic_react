@@ -32,15 +32,11 @@
         "react-dom": "^16.4.2",
         "react-hot-loader": "^4.3.4",
         "react-jss": "^8.6.1",
+        "react-loadable": "^5.5.0",
         "react-redux": "^5.0.7",
         "react-router": "^4.3.1",
         "react-router-dom": "^4.3.1",
-        "redux": "^4.0.0",
-        "redux-devtools": "^3.4.1",
-        "redux-devtools-dispatch": "^2.2.1",
-        "redux-devtools-dock-monitor": "^1.1.3",
         "redux-devtools-log-monitor": "^1.4.0",
-        "redux-devtools-multiple-monitors": "^1.0.1",
         "webpack": "^4.16.5",
         "webpack-dev-middleware": "^3.1.3",
         "webpack-dev-server": "^3.1.5",
@@ -52,6 +48,7 @@
         "babel-cli": "^6.26.0",
         "babel-eslint": "^8.2.6",
         "babel-loader": "^7.1.5",
+        "babel-plugin-dynamic-import-webpack": "^1.0.2",
         "babel-plugin-transform-class-properties": "^6.24.1",
         "babel-plugin-transform-object-rest-spread": "^6.26.0",
         "babel-preset-env": "^1.7.0",
@@ -64,6 +61,7 @@
         "eslint-plugin-jsx-a11y": "^6.1.1",
         "eslint-plugin-react": "^7.11.0",
         "prettier": "^1.14.2",
+        "webpack-bundle-analyzer": "^2.13.1",
         "webpack-cli": "^3.1.0"
     }
 }

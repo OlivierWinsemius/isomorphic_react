@@ -1,6 +1,9 @@
+const ReactLoadablePlugin = require('react-loadable/webpack').ReactLoadablePlugin;
+
 module.exports = {
     output: {
         filename: '[name].js',
+        chunkFilename: '[name].bundle.js',
     },
 
     resolve: {
@@ -24,5 +27,23 @@ module.exports = {
                 },
             },
         ],
+    },
+
+    plugins: [
+        new ReactLoadablePlugin({
+            filename: './react-loadable.json',
+        }),
+    ],
+
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                commons: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendor',
+                    chunks: 'all',
+                },
+            },
+        },
     },
 };
