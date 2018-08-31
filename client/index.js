@@ -5,14 +5,20 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import App from 'components/environments/App';
 import store from 'redux/store';
+import ApolloClient from 'apollo-boost';
+import { ApolloProvider } from 'react-apollo';
+
+const client = new ApolloClient();
 
 const render = (Component) => {
     ReactDOM.render(
         <AppContainer>
             <Provider store={store}>
-                <BrowserRouter>
-                    <Component />
-                </BrowserRouter>
+                <ApolloProvider client={client}>
+                    <BrowserRouter>
+                        <Component />
+                    </BrowserRouter>
+                </ApolloProvider>
             </Provider>
         </AppContainer>,
         document.getElementById('root')

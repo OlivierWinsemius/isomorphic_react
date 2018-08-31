@@ -11,7 +11,7 @@ Todo:
 -   [x] DevServer
 -   [x] Hot Module Reloading (server / client)
 -   [x] Redux setup
--   [ ] Apollo client setup
+-   [x] Apollo client setup
 -   [ ] Redux Saga setup
 -   [ ] SSR data fetching
 -   [ ] Persistant state

@@ -16,6 +16,13 @@ module.exports = {
                     loader: 'babel-loader',
                 },
             },
+            {
+                test: /\.graphql$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'graphql-tag/loader',
+                },
+            },
         ],
     },
 };
