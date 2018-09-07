@@ -1,30 +1,38 @@
 import React from 'react';
-import gql from 'graphql-tag';
-import { Query } from 'react-apollo';
 import { Link } from 'react-router-dom';
+import { capitalize } from 'lodash';
 
-export default () => (
-    <Query
-        query={gql`
-            {
-                getAuthor(id: 15305) {
-                    name
-                    books {
-                        title
-                    }
-                }
-            }
-        `}
-    >
-        {({ loading, error, data }) => {
-            console.log(loading, error, data);
-            return (
-                <div>
-                    <Link to="/bla">bla</Link>
-                    <br />
-                    {loading && 'loading...'}
-                </div>
-            );
-        }}
-    </Query>
-);
+export default ({ currentActivity }) =>
+    (currentActivity ? (
+        <React.Fragment>
+            <span>
+                title:
+                {currentActivity.title}
+            </span>
+            <br />
+            <span>
+                description:
+                {currentActivity.description}
+            </span>
+            <br />
+            <span>
+                type:
+                {capitalize(currentActivity.type)}
+            </span>
+            <br />
+            <span>
+                distance:
+                {currentActivity.distance}
+                km
+            </span>
+            <br />
+            <span>
+                time:
+                {currentActivity.time}
+            </span>
+            <br />
+            <Link to="/bla">bla</Link>
+        </React.Fragment>
+    ) : (
+        <Link to="/bla">bla</Link>
+    ));

@@ -23,7 +23,7 @@ router.use(hmr(compiler));
 
 compiler.plugin('done', () => {
     console.log('Clearing client module cache from server');
-    Object.keys(require.cache).forEach(id => {
+    Object.keys(require.cache).forEach((id) => {
         if (/[\/\\]client[\/\\]/.test(id)) {
             delete require.cache[id];
         }

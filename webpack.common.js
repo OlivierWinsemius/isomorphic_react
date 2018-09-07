@@ -20,7 +20,7 @@ module.exports = {
                 },
             },
             {
-                test: /\.graphql$/,
+                test: /\.gql$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'graphql-tag/loader',
@@ -31,7 +31,7 @@ module.exports = {
 
     plugins: [
         new ReactLoadablePlugin({
-            filename: './react-loadable.json',
+            filename: './dist/prod/react-loadable.json',
         }),
     ],
 

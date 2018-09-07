@@ -9,10 +9,14 @@ import { createHttpLink } from 'apollo-link-http';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { getBundles } from 'react-loadable/webpack';
 import Loadable from 'react-loadable';
-import stats from '../../react-loadable.json';
+import stats from '../../dist/prod/react-loadable.json';
 import App from '../../client/components/environments/App';
+import { defaults, resolvers } from '../../client/apollo/resolvers';
+import typeDefs from '../../client/apollo/schemas';
 
 const router = express.Router();
+
+console.log(defaults);
 
 router.get('*', (req, res) => {
     const sheets = new SheetsRegistry();
@@ -20,6 +24,11 @@ router.get('*', (req, res) => {
     const client = new ApolloClient({
         ssrMode: true,
         cache: new InMemoryCache(),
+        clientState: {
+            defaults,
+            resolvers,
+            typeDefs,
+        },
         link: createHttpLink({
             uri: 'http://localhost:3010',
             credentials: 'same-origin',
@@ -44,7 +53,6 @@ router.get('*', (req, res) => {
     );
 
     const bundles = getBundles(stats, modules);
-    console.log(bundles);
 
     return res.send(`
         <html lang="en">
@@ -56,7 +64,7 @@ router.get('*', (req, res) => {
                     ${content}
                 </div>
             </body>
-            ${bundles.map(bundle => `<script src="/build/${bundle.file}"></script>`).join('\n')}
+            ${bundles.map(bundle => `<script src="${bundle.publicPath}"></script>`).join('\n')}
             <script src="/build/vendor.bundle.js"></script>
             <script src="/build/app.js"></script>
         </html>

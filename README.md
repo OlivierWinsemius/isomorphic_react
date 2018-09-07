@@ -10,7 +10,6 @@ Todo:
 -   [x] React-Router
 -   [x] DevServer
 -   [x] Hot Module Reloading (server / client)
--   [x] Redux setup
 -   [x] Apollo client setup
 -   [ ] Redux Saga setup
 -   [ ] PWA Manifest

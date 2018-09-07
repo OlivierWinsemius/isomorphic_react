@@ -6,8 +6,6 @@ import Loadable from 'react-loadable';
 import ReactSSR from './middleware/reactSSR';
 import { clearCache } from './utils/hmr';
 
-console.log(require.ensure);
-
 if (!global.fetch) {
     global.fetch = fetch;
 }
