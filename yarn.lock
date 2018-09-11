@@ -551,7 +551,7 @@ apollo-link-http@^1.3.1, apollo-link-http@^1.5.4:
     apollo-link "^1.2.2"
     apollo-link-http-common "^0.2.4"
 
-apollo-link-state@^0.4.0:
+apollo-link-state@^0.4.0, apollo-link-state@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/apollo-link-state/-/apollo-link-state-0.4.1.tgz#65e9e0e12c67936b8c4b12b8438434f393104579"
   dependencies:
@@ -1885,7 +1885,7 @@ compressible@~2.0.14:
   dependencies:
     mime-db ">= 1.34.0 < 2"
 
-compression@^1.5.2:
+compression@^1.5.2, compression@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/compression/-/compression-1.7.3.tgz#27e0e176aaf260f7f2c2813c3e440adb9f1993db"
   dependencies:
