@@ -1,4 +1,5 @@
 import chokidar from 'chokidar';
+import compression from 'compression';
 import dotenv from 'dotenv';
 import express from 'express';
 import fetch from 'node-fetch';
@@ -15,11 +16,15 @@ const PORT = process.env.DEV_PORT;
 const isDevelopment = process.env.NODE_ENV === 'development';
 const isServerOnly = process.env.NODE_ENV === 'server';
 const isProduction = process.env.NODE_ENV === 'production';
+
 const app = express();
 
 app.use((req, res, next) => require('./routes').default(req, res, next));
 
-app.use((req, res, next) => require('./middleware/apolloServer').default(req, res, next));
+app.use((req, res, next) =>
+    require('./middleware/apolloServer').default(req, res, next));
+
+app.use(compression());
 
 if (isDevelopment) {
     app.use(require('./middleware/webpack').default);
@@ -34,5 +39,7 @@ if (!isProduction) {
 }
 
 Loadable.preloadAll()
-    .then(() => app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`)))
+    .then(() =>
+        app.listen(PORT, () =>
+            console.log(`listening on http://localhost:${PORT}`)))
     .catch(e => console.log(e));

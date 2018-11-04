@@ -18,6 +18,14 @@ const router = express.Router();
 router.get('*', (req, res) => {
     const sheets = new SheetsRegistry();
 
+    const httpLink = createHttpLink({
+        uri: 'http://localhost:3010',
+        credentials: 'same-origin',
+        headers: {
+            cookie: req.header('Cookie'),
+        },
+    });
+
     const client = new ApolloClient({
         cache: new InMemoryCache(),
         clientState: {
