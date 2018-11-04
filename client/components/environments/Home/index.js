@@ -1,5 +1,5 @@
 import { compose, graphql } from 'react-apollo';
-import { getCurrentActivity } from '../../../apollo/actions/activities';
+import { getCurrentActivity } from '../../../apollo/queries/activities';
 import Home from './Home';
 
 export default compose(

@@ -1,41 +1,30 @@
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import express from 'express';
-import { JssProvider, SheetsRegistry } from 'react-jss';
+import { JssProvider, SheetsRegistry, ThemeProvider } from 'react-jss';
 import { StaticRouter } from 'react-router-dom';
 import { ApolloProvider } from 'react-apollo';
-import { ApolloClient } from 'apollo-client';
-import { createHttpLink } from 'apollo-link-http';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { getBundles } from 'react-loadable/webpack';
 import Loadable from 'react-loadable';
+import ApolloClient from 'apollo-boost';
 import stats from '../../dist/prod/react-loadable.json';
+import theme from '../../client/index.theme';
 import App from '../../client/components/environments/App';
 import { defaults, resolvers } from '../../client/apollo/resolvers';
 import typeDefs from '../../client/apollo/schemas';
 
 const router = express.Router();
-
-console.log(defaults);
-
 router.get('*', (req, res) => {
     const sheets = new SheetsRegistry();
 
     const client = new ApolloClient({
-        ssrMode: true,
         cache: new InMemoryCache(),
         clientState: {
             defaults,
             resolvers,
             typeDefs,
         },
-        link: createHttpLink({
-            uri: 'http://localhost:3010',
-            credentials: 'same-origin',
-            headers: {
-                cookie: req.header('Cookie'),
-            },
-        }),
     });
 
     const modules = [];
@@ -45,7 +34,9 @@ router.get('*', (req, res) => {
             <ApolloProvider client={client}>
                 <StaticRouter location={req.url}>
                     <JssProvider registry={sheets}>
-                        <App />
+                        <ThemeProvider theme={theme}>
+                            <App />
+                        </ThemeProvider>
                     </JssProvider>
                 </StaticRouter>
             </ApolloProvider>
@@ -53,7 +44,6 @@ router.get('*', (req, res) => {
     );
 
     const bundles = getBundles(stats, modules);
-
     return res.send(`
         <html lang="en">
             <head>

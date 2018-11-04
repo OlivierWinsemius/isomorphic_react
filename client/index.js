@@ -7,10 +7,12 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import { defaults, resolvers } from 'apollo/resolvers';
 import typeDefs from 'apollo/schemas';
-import { InMemoryCache } from 'apollo-cache-inmemory';
+import { ThemeProvider } from 'react-jss';
+import theme from './index.theme';
+import isProduction from './utils/environment';
 
 const client = new ApolloClient({
-    cache: new InMemoryCache(),
+    // cache: new InMemoryCache(),
     clientState: {
         defaults,
         resolvers,
@@ -18,15 +20,15 @@ const client = new ApolloClient({
     },
 });
 
-console.log('whatuuup!');
-
 const render = (Component) => {
-    console.log(Component);
-    ReactDOM.render(
+    const renderApp = isProduction ? ReactDOM.hydrate : ReactDOM.render;
+    renderApp(
         <AppContainer>
             <ApolloProvider client={client}>
                 <BrowserRouter>
-                    <Component />
+                    <ThemeProvider theme={theme}>
+                        <Component />
+                    </ThemeProvider>
                 </BrowserRouter>
             </ApolloProvider>
         </AppContainer>,

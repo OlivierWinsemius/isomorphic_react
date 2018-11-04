@@ -7,6 +7,7 @@ export const getCurrentActivity = gql`
             title
             description
             type
+            date
             distance
             time
         }
