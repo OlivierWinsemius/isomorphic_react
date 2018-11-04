@@ -18,14 +18,6 @@ const router = express.Router();
 router.get('*', (req, res) => {
     const sheets = new SheetsRegistry();
 
-    const httpLink = createHttpLink({
-        uri: 'http://localhost:3010',
-        credentials: 'same-origin',
-        headers: {
-            cookie: req.header('Cookie'),
-        },
-    });
-
     const client = new ApolloClient({
         cache: new InMemoryCache(),
         clientState: {
@@ -62,7 +54,9 @@ router.get('*', (req, res) => {
                     ${content}
                 </div>
             </body>
-            ${bundles.map(bundle => `<script src="${bundle.publicPath}"></script>`).join('\n')}
+            ${bundles
+                .map(bundle => `<script src="${bundle.publicPath}"></script>`)
+                .join('\n')}
             <script src="/build/vendor.bundle.js"></script>
             <script src="/build/app.js"></script>
         </html>

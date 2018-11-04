@@ -33,13 +33,13 @@ if (isDevelopment) {
 }
 if (!isProduction) {
     const watcher = chokidar.watch('.', {
-        ignored: /(client\/).*/,
+        ignored: /(client|node_modules).*/,
     });
-    clearCache(watcher, /\/server\//);
+    clearCache(watcher, /(server).*/);
 }
 
 Loadable.preloadAll()
     .then(() =>
         app.listen(PORT, () =>
             console.log(`listening on http://localhost:${PORT}`)))
-    .catch(e => console.log(e));
+    .catch(e => console.warn(e));

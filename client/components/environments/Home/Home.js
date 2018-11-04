@@ -46,9 +46,14 @@ export default ({ currentActivity }) => (
                 label="time"
                 value={currentActivity.time}
             />
-            <FormInput type="submit" name="submit" value="submit" />
-            <FormInput field="general" type="submit" name="submit" value="submit" />
+            <FormInput
+                field="submit"
+                type="submit"
+                name="submit"
+                value="submit"
+            />
         </Form>
+
         <Link to="/bla">bla</Link>
     </React.Fragment>
 );
