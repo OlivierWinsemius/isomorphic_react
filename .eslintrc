@@ -1,12 +1,26 @@
 {
-    "extends": ["prettier", "prettier/react", "airbnb"],
+    "extends": [
+        "airbnb"
+    ],
     "parser": "babel-eslint",
     "rules": {
         "indent": "off",
-        "comma-dangle": ["error", "always-multiline"],
-        "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
         "react/jsx-indent": "off",
+        "react/jsx-no-undef": "off",
         "react/jsx-indent-props": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js"
+                ]
+            }
+        ],
+        "react/react-in-jsx-scope": "off",
         "linebreak-style": "off",
         "implicit-arrow-linebreak": "off",
         "sort-imports": "off",
@@ -22,10 +36,16 @@
             "webpack": {
                 "config": {
                     "resolve": {
-                        "modules": ["./client", "node_modules"]
+                        "modules": [
+                            "./client",
+                            "node_modules"
+                        ]
                     }
                 }
             }
         }
+    },
+    "globals": {
+        "React": true
     }
 }

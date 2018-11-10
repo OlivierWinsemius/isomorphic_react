@@ -1,10 +1,9 @@
 export default `
     type Book {
         title: String
-        authors: [Author]
     }
 
-    type Author {
+    type Author { 
         name: String
         books: [Book]
     }

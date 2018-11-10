@@ -1,4 +1,6 @@
-const ReactLoadablePlugin = require('react-loadable/webpack').ReactLoadablePlugin;
+const ReactLoadablePlugin = require('react-loadable/webpack')
+    .ReactLoadablePlugin;
+const webpack = require('webpack');
 
 module.exports = {
     output: {
@@ -32,6 +34,9 @@ module.exports = {
     plugins: [
         new ReactLoadablePlugin({
             filename: './dist/prod/react-loadable.json',
+        }),
+        new webpack.ProvidePlugin({
+            React: 'react',
         }),
     ],
 

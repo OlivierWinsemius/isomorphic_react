@@ -1,3 +1,4 @@
+import React from 'react';
 import chokidar from 'chokidar';
 import compression from 'compression';
 import dotenv from 'dotenv';
@@ -10,6 +11,10 @@ import { clearCache } from './utils/hmr';
 if (!global.fetch) {
     global.fetch = fetch;
 }
+if (!global.React) {
+    global.React = React;
+}
+
 dotenv.config();
 
 const PORT = process.env.DEV_PORT;
@@ -33,13 +38,13 @@ if (isDevelopment) {
 }
 if (!isProduction) {
     const watcher = chokidar.watch('.', {
-        ignored: /(client\/).*/,
+        ignored: /(client|node_modules).*/,
     });
-    clearCache(watcher, /\/server\//);
+    clearCache(watcher, /(server).*/);
 }
 
 Loadable.preloadAll()
     .then(() =>
         app.listen(PORT, () =>
             console.log(`listening on http://localhost:${PORT}`)))
-    .catch(e => console.log(e));
+    .catch(e => console.warn(e));

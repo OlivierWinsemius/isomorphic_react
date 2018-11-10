@@ -8,11 +8,7 @@ const router = express.Router();
 const server = new ApolloServer({
     typeDefs,
     resolvers,
-    playground: {
-        settings: {
-            'editor.cursorShape': 'line',
-        },
-    },
+    introspection: true,
 });
 
 server.applyMiddleware({ app: router });

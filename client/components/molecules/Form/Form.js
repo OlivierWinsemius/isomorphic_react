@@ -1,17 +1,16 @@
-import React from 'react';
-
 export default class Form extends React.Component {
     constructor(props) {
         super(props);
 
         const inputValues = {};
         React.Children.forEach(props.children, (input) => {
-            input.props.name && (inputValues[input.props.name] = input.props.value);
+            // setting default inputvalues in state
+            if (input.props.name) {
+                inputValues[input.props.name] = input.props.value;
+            }
         });
 
-        this.state = {
-            inputValues,
-        };
+        this.state = { inputValues };
     }
 
     onSubmit = (e) => {
@@ -23,7 +22,6 @@ export default class Form extends React.Component {
 
     onChange = ({ target }) => {
         const { inputValues } = this.state;
-
         this.setState({
             inputValues: {
                 ...inputValues,
@@ -34,28 +32,35 @@ export default class Form extends React.Component {
 
     getInputFields = (inputs) => {
         const { inputValues } = this.state;
+
         const fields = [];
 
         React.Children.map(inputs, (input) => {
             const { field } = input.props;
+
             const newInput = {
                 field,
                 input: React.cloneElement(input, {
                     key: input.props.name,
-                    value: inputValues[input.props.name] || input.props.value || '',
+                    value:
+                        inputValues[input.props.name]
+                        || input.props.value
+                        || '',
                     onChange: this.onChange,
                 }),
             };
 
-            const matchingField = fields.find(({ fieldName }) => fieldName === input.props.field);
+            const matchingField = fields.find(
+                ({ fieldName }) => fieldName === input.props.field
+            );
 
-            if (!matchingField) {
+            if (matchingField) {
+                matchingField.inputs.push(newInput.input);
+            } else {
                 fields.push({
-                    fieldName: newInput.field,
+                    fieldName: field,
                     inputs: [newInput.input],
                 });
-            } else {
-                matchingField.inputs.push(newInput.input);
             }
         });
 
@@ -69,8 +74,7 @@ export default class Form extends React.Component {
             <form onSubmit={this.onSubmit} className={classes.form}>
                 {fields.map(({ fieldName, inputs }) => (
                     <fieldset key={fieldName}>
-                        {typeof fieldName === 'string'
-                            && fieldName !== 'undefined' && <legend>{fieldName}</legend>}
+                        {fieldName && <legend>{fieldName}</legend>}
                         {inputs}
                     </fieldset>
                 ))}

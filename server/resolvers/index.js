@@ -1,23 +1,16 @@
-import { fetchAuthor, fetchBook } from '../utils/goodreads';
-
 export default {
     Query: {
-        getAuthor(_, { id }) {
-            return fetchAuthor(id);
-        },
+        getAuthor: () => 1,
     },
     Book: {
-        title: xml => xml.GoodreadsResponse.book[0].title[0],
-        authors: xml =>
-            xml.GoodreadsResponse.book[0].authors[0].author
-                .map(author => author.id[0])
-                .map(fetchAuthor),
+        title: () => 'title',
     },
     Author: {
-        name: xml => xml.GoodreadsResponse.author[0].name[0],
-        books: xml =>
-            xml.GoodreadsResponse.author[0].books[0].book
-                .map(book => book.id[0]._)
-                .map(fetchBook),
+        name: () => 'name',
+        books: () => [
+            { title: 'title' },
+            { title: 'title' },
+            { title: 'title' },
+        ],
     },
 };
