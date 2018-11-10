@@ -1,3 +1,4 @@
+import React from 'react';
 import chokidar from 'chokidar';
 import compression from 'compression';
 import dotenv from 'dotenv';
@@ -10,6 +11,10 @@ import { clearCache } from './utils/hmr';
 if (!global.fetch) {
     global.fetch = fetch;
 }
+if (!global.React) {
+    global.React = React;
+}
+
 dotenv.config();
 
 const PORT = process.env.DEV_PORT;

@@ -1,17 +1,15 @@
-import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import Loadable from 'react-loadable';
 
 if (typeof require.ensure !== 'function') {
-    require.ensure = function (d, c) {
-        c(require);
-    };
+    require.ensure = (d, c) => c(require);
 }
 
 const loading = () => <div>Loading...</div>;
 
 const Home = Loadable({
-    loader: () => import(/* webpackChunkName: "Home" */ '../../environments/Home'),
+    loader: () =>
+        import(/* webpackChunkName: "Home" */ '../../environments/Home'),
     loading,
 });
 

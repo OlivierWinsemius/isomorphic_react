@@ -1,4 +1,3 @@
-import React from 'react';
 import moment from 'moment';
 import { Link } from 'react-router-dom';
 import Form from '../../molecules/Form';
@@ -6,11 +5,7 @@ import FormInput from '../../atoms/FormInput';
 
 export default ({ currentActivity }) => (
     <React.Fragment>
-        <Form
-            onSubmit={(values) => {
-                console.log(currentActivity, values);
-            }}
-        >
+        <Form onSubmit={() => {}}>
             <FormInput
                 field="general"
                 type="text"
