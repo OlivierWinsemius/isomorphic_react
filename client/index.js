@@ -8,7 +8,7 @@ import { defaults, resolvers } from 'apollo/resolvers';
 import typeDefs from 'apollo/schemas';
 import { ThemeProvider } from 'react-jss';
 import theme from './index.theme';
-import isProduction from './utils/environment';
+import { isProduction } from './utils/environment';
 
 const client = new ApolloClient({
     // cache: new InMemoryCache(),
