@@ -9,7 +9,8 @@
         "serverOnly": "cross-env NODE_ENV=server babel-node ./server/server.js",
         "clientOnly": "webpack-dev-server",
         "build": "webpack --config webpack.prod.js",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "test": "jest --watch"
     },
     "dependencies": {
         "apollo-boost": "^0.1.20",
@@ -50,19 +51,27 @@
         "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
         "@babel/preset-env": "^7.1.5",
         "@babel/preset-react": "^7.0.0",
+        "babel-core": "^7.0.0-bridge.0",
         "babel-eslint": "^10.0.1",
+        "babel-jest": "^23.6.0",
         "babel-loader": "^8.0.0-beta.6",
         "babel-plugin-dynamic-import-webpack": "^1.0.2",
         "babel-plugin-transform-class-properties": "^6.24.1",
+        "enzyme": "^3.7.0",
+        "enzyme-adapter-react-16": "^1.7.0",
         "eslint": "^5.9.0",
         "eslint-config-airbnb": "^17.1.0",
         "eslint-config-prettier": "^3.1.0",
         "eslint-import-resolver-webpack": "^0.10.1",
         "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jest": "^22.0.0",
         "eslint-plugin-jsx-a11y": "^6.1.1",
         "eslint-plugin-react": "^7.11.0",
+        "jest": "^23.6.0",
+        "jest-enzyme": "^7.0.1",
         "prettier": "^1.15.2",
         "redux-devtools-log-monitor": "^1.4.0",
+        "sinon": "^7.1.1",
         "webpack": "^4.25.1",
         "webpack-bundle-analyzer": "^3.0.3",
         "webpack-cli": "^3.1.0",
@@ -70,5 +79,9 @@
         "webpack-dev-server": "^3.1.10",
         "webpack-hot-middleware": "^2.24.3",
         "webpack-merge": "^4.1.4"
+    },
+    "jest": {
+        "setupTestFrameworkScriptFile": "jest-enzyme",
+        "testEnvironment": "enzyme"
     }
 }

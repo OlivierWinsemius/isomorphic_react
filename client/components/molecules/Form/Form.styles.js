@@ -1,4 +1,7 @@
 export default () => ({
-    form: {},
-    input: {},
+    form: {
+        background: 'red',
+        height: 400,
+        width: 400,
+    },
 });

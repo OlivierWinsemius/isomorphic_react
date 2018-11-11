@@ -1,15 +1,9 @@
+import Fields from './Fields';
+
 export default class Form extends React.Component {
     constructor(props) {
         super(props);
-
-        const inputValues = {};
-        React.Children.forEach(props.children, (input) => {
-            // setting default inputvalues in state
-            if (input.props.name) {
-                inputValues[input.props.name] = input.props.value;
-            }
-        });
-
+        const inputValues = this.getInputValuesFromChildren(props.children);
         this.state = { inputValues };
     }
 
@@ -30,54 +24,21 @@ export default class Form extends React.Component {
         });
     };
 
-    getInputFields = (inputs) => {
-        const { inputValues } = this.state;
-
-        const fields = [];
-
-        React.Children.map(inputs, (input) => {
-            const { field } = input.props;
-
-            const newInput = {
-                field,
-                input: React.cloneElement(input, {
-                    key: input.props.name,
-                    value:
-                        inputValues[input.props.name]
-                        || input.props.value
-                        || '',
-                    onChange: this.onChange,
-                }),
-            };
-
-            const matchingField = fields.find(
-                ({ fieldName }) => fieldName === input.props.field
-            );
-
-            if (matchingField) {
-                matchingField.inputs.push(newInput.input);
-            } else {
-                fields.push({
-                    fieldName: field,
-                    inputs: [newInput.input],
-                });
-            }
-        });
-
-        return fields;
-    };
+    getInputValuesFromChildren = children => React.Children.toArray(children).reduce(
+        (inputs, input) => ({
+            ...inputs,
+            [input.props.name]: input.props.value,
+        }),
+        {},
+    );
 
     render() {
         const { children, classes } = this.props;
-        const fields = this.getInputFields(children);
+        const { inputValues } = this.state;
+
         return (
             <form onSubmit={this.onSubmit} className={classes.form}>
-                {fields.map(({ fieldName, inputs }) => (
-                    <fieldset key={fieldName}>
-                        {fieldName && <legend>{fieldName}</legend>}
-                        {inputs}
-                    </fieldset>
-                ))}
+                <Fields inputs={children} values={inputValues} onInputChanged={this.onChange} />
             </form>
         );
     }
