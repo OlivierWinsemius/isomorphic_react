@@ -1,5 +1,7 @@
 import gql from 'graphql-tag';
 
 export default gql`
-    type Query {}
+    type Query {
+        message: String
+    }
 `;
