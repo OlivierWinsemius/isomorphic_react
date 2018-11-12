@@ -59,5 +59,8 @@ module.exports = {
             template: './index.html',
         }),
         new webpack.HotModuleReplacementPlugin(),
+        new webpack.ProvidePlugin({
+            React: 'react',
+        }),
     ],
 };

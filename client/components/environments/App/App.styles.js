@@ -4,6 +4,15 @@ export default {
         height: '100%',
         padding: 0,
         margin: 0,
-        backgroundColor: '#2f2f2f',
+        backgroundColor: '#202020',
     },
+
+    '@global *': {
+        fontFamily: 'Open Sans, sans-serif',
+    },
+
+    '@import': [
+        'url(https://fonts.googleapis.com/css?family=Open+Sans)',
+        'url(https://fonts.googleapis.com/css?family=Oswald)',
+    ],
 };

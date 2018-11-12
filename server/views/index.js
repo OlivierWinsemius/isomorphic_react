@@ -15,7 +15,17 @@ import { defaults, resolvers } from '../../client/apollo/resolvers';
 import typeDefs from '../../client/apollo/schemas';
 
 const router = express.Router();
+
+router.get('/favicon.ico', (req, res) => {
+    console.log('favicon!');
+    res.send();
+});
+
 router.get('*', (req, res) => {
+    global.navigator = {
+        platform: req.headers['user-agent'],
+    };
+    console.log(global.navigator.platform);
     const sheets = new SheetsRegistry();
 
     const client = new ApolloClient({
@@ -55,8 +65,8 @@ router.get('*', (req, res) => {
                 </div>
             </body>
             ${bundles
-                .map(bundle => `<script src="${bundle.publicPath}"></script>`)
-                .join('\n')}
+            .map(bundle => `<script src="${bundle.publicPath}"></script>`)
+            .join('\n')}
             <script src="/build/vendor.bundle.js"></script>
             <script src="/build/app.js"></script>
         </html>

@@ -33,12 +33,23 @@ export default class Form extends React.Component {
     );
 
     render() {
-        const { children, classes } = this.props;
+        const { children, title, onSubmit, classes } = this.props;
         const { inputValues } = this.state;
 
         return (
             <form onSubmit={this.onSubmit} className={classes.form}>
-                <Fields inputs={children} values={inputValues} onInputChanged={this.onChange} />
+                <button type="button" className={classes.closeButton}>x</button>
+                {title && (
+                    <div className={classes.banner}>
+                        <h2 className={classes.title}>{title}</h2>
+                    </div>
+                )}
+                <div className={classes.fieldsWrapper}>
+                    <Fields inputs={children} values={inputValues} onInputChanged={this.onChange} />
+                </div>
+                {onSubmit && (
+                    <button type="submit" className={classes.submitButton}>SUBMIT</button>
+                )}
             </form>
         );
     }

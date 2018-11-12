@@ -6,9 +6,7 @@ export default class Fields extends React.Component {
         React.Children.toArray(inputs).reduce((fields, input) => {
             const { field } = input.props;
 
-            const inputValue = values[input.props.name]
-                || input.props.value
-                || '';
+            const inputValue = values[input.props.name];
 
             const newInput = {
                 field,
@@ -38,11 +36,14 @@ export default class Fields extends React.Component {
         const { inputs, values, classes } = this.props;
         const fields = this.getFieldsFromInputs(inputs, values);
 
-        return fields.map(({ fieldName, fieldInputs }, key) => (
-            <fieldset className={classes.field} key={fieldName || key}>
-                {fieldName && <legend>{fieldName}</legend>}
-                {fieldInputs}
-            </fieldset>
-        ));
+        return fields.map(({ fieldName, fieldInputs }) => (
+            fieldName
+                ? (
+                    <fieldset className={classes.field} key={fieldName}>
+                        <legend>{fieldName}</legend>
+                        {fieldInputs}
+                    </fieldset>
+                )
+                : fieldInputs));
     }
 }

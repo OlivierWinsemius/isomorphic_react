@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<FormInput /> matches snapshot 1`] = `
-<Fragment>
+<div>
   <span>
-    label
+    label: 
   </span>
   <input />
-</Fragment>
+</div>
 `;
