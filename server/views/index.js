@@ -10,7 +10,7 @@ import Loadable from 'react-loadable';
 import ApolloClient from 'apollo-boost';
 import stats from '../../dist/prod/react-loadable.json';
 import theme from '../../client/index.theme';
-import App from '../../client/components/environments/App';
+import App from '../../client/components/4_environments/App';
 import { defaults, resolvers } from '../../client/apollo/resolvers';
 import typeDefs from '../../client/apollo/schemas';
 
