@@ -19,8 +19,9 @@ const client = new ApolloClient({
     },
 });
 
-const render = Component => {
-    const renderApp = isProduction ? ReactDOM.hydrate : ReactDOM.render;
+const renderApp = isProduction ? ReactDOM.hydrate : ReactDOM.render;
+
+const render = Component =>
     renderApp(
         <AppContainer>
             <ApolloProvider client={client}>
@@ -33,7 +34,6 @@ const render = Component => {
         </AppContainer>,
         document.getElementById('root')
     );
-};
 
 render(App);
 
