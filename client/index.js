@@ -19,7 +19,7 @@ const client = new ApolloClient({
     },
 });
 
-const render = (Component) => {
+const render = Component => {
     const renderApp = isProduction ? ReactDOM.hydrate : ReactDOM.render;
     renderApp(
         <AppContainer>

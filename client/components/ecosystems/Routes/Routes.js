@@ -16,7 +16,5 @@ const Home = Loadable({
 export default () => (
     <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/bla" render={() => <Link to="/">root</Link>} exact />
-        <Route render={() => <h1>404!</h1>} />
     </Switch>
 );
