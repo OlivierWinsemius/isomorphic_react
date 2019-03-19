@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import { BrowserRouter } from 'react-router-dom';
-import App from 'components/environments/App';
+import App from 'components/4_environments/App';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import { defaults, resolvers } from 'apollo/resolvers';
@@ -37,10 +37,10 @@ const render = Component => {
 
 render(App);
 
-if (module.hot) {
-    module.hot.accept('./components/environments/App', () => {
+if (!isProduction && module.hot) {
+    module.hot.accept('./components/4_environments/App', () => {
         // eslint-disable-next-line global-require
-        render(require('./components/environments/App').default);
+        render(require('./components/4_environments/App').default);
     });
 }
 

@@ -1,4 +1,4 @@
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Loadable from 'react-loadable';
 
 if (typeof require.ensure !== 'function') {
@@ -9,7 +9,7 @@ const loading = () => <div>Loading...</div>;
 
 const Home = Loadable({
     loader: () =>
-        import(/* webpackChunkName: "Home" */ '../../environments/Home'),
+        import(/* webpackChunkName: "Home" */ '../../4_environments/Home'),
     loading,
 });
 
